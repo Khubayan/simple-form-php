@@ -1,0 +1,89 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+
+    main > * {
+        margin-top: 2rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-top: 1.6rem;
+    }
+
+    .wrapper {
+        /* background-color: aqua; */
+        display: grid;
+        width: 100%;
+        height: 100vh;
+    }
+    
+/* Utitlities */
+    .d-flex {
+        display: flex;
+        /* Main Axis */
+        /* justify-self: center; */
+        justify-content: center;
+        align-self: center;
+    }
+
+    /*  */
+    
+    .form-body {
+        background-color: #a9c5ec;
+        padding: 3rem;
+        /* border-right: .5rem groove #595959;
+        border-bottom: .5rem groove #595959; */
+        border: .5rem ridge #a9c5ec;
+        /* border-left: .5rem groove #bdbfbd; */
+    }
+
+    .form-body > form > input {
+        border: .1rem solid gray;   
+        padding: .1rem;
+        border-radius: 0;
+    }
+
+    .form-body  textarea {
+        border: .1rem solid gray;
+    }
+
+    .form-body textarea::placeholder {
+        color: rgb(0, 0, 0);
+    }
+
+
+    .textarea-field {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .selection-box {
+        border: .1rem solid gray;   
+        background-color: white;
+        margin-top: 1.6rem;
+    }
+
+    .gender-form input[type="radio"],
+    .hobby-form input {
+       box-shadow: none;    
+       /* border-color: blue; */
+    }
+
+    .gender-form input,
+    .gender-form label,
+    .hobby-form input, 
+    .hobby-form label,
+    button {
+        margin-top: 1.6rem;
+    }
